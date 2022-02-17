@@ -3,7 +3,7 @@
 <h2>Commands to execute-</h2>
  <p>export HADOOP_HOME="hadoop_File_Path"</p>
  <p>gedit $HADOOP_HOME/etc/hadoop/hadoop-env.sh</p>
- <p>( add the java path in 54th line) i.e export JAVA_HOME="java_path"</p>
+ <p>( add the java path in 54th line) i.e export JAVA_HOME="java_path"  To Check java path - readlink -f $(which java)</p>
  
  <p>export CLASSPATH="$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-common-3.2.2.jar:$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.2.2.jar:$HADOOP_HOME/share/hadoop/common/hadoop-common-3.2.2.jar:$HADOOP_HOME/lib/*"</p>
  
